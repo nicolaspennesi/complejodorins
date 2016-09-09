@@ -8,7 +8,7 @@ $data = [
   'channelId' => 'UC0W20M_g6fQSvsNQ7mSGFlw',
   'order' => 'date',
   'maxResults' => '1',
-  'key' => 'AIzaSyDCtH6jdZf5rs5TvQZXelHhUIEBTIBjKTI',
+  'key' => 'AIzaSyDAt6ySpwO4W7T51F_jEUlvy3UmzklZpTY',
 ];
 
 $url = $base_url . "?" . http_build_query($data);

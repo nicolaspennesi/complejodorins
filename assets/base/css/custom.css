@@ -3,6 +3,18 @@
   align-items: center;
 }
 
+.centered {
+  text-align: center;
+}
+
+.c-content-feedback-1 > .row > div .c-content-title-1 > p {
+    margin-bottom: 52px;
+}
+
+.c-content-feedback-1 > .row > div > .c-container:last-child p {
+    margin-bottom: 52px;
+}
+
 .imagecontour {
   padding: 10px;
   border: solid 1px #EFEFEF;

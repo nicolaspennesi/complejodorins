@@ -6,18 +6,18 @@ var PageContact = function() {
 
 		var mapbg = new GMaps({
 			div: '#gmapbg',
-			lat: 3.118823,
-			lng: 101.676084,
+			lat: -36.7215569,
+			lng: -56.6778291,
 			scrollwheel: false
 		});
 
 
 		mapbg.addMarker({
-			lat: 3.118823,
-			lng: 101.676084,
-			title: 'Your Location',
+			lat: -36.7215569,
+			lng: -56.6778291,
+			title: 'Complejo Dorin\'s',
 			infoWindow: {
-				content: '<h3>Jango Inc.</h3><p>25, Lorem Lis Street, Orange C, California, US</p>'
+				content: '<h3>Complejo Dorin\'s</h3><p>Av. Libertador San Martín 162, Mar de Ajó, Buenos Aires, Argentina</p>'
 			}
 		});
 	}

@@ -21,7 +21,7 @@
                 <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-theme c-fonts-uppercase c-fonts-bold">
                     <ul class="nav navbar-nav c-theme-nav">
                         <li class="c-active">
-                            <a href="javascript:;" class="c-link dropdown-toggle">Inicio</a>
+                            <a href="index.php" class="c-link dropdown-toggle">Inicio</a>
                         </li>
                         <li class="c-menu-type-classic">
                             <a href="javascript:;" class="c-link dropdown-toggle">Conocenos</a>
@@ -50,7 +50,7 @@
                             <a href="javascript:;" class="c-link dropdown-toggle">Servicios</a>
                         </li>
                         <li class="c-menu-type-classic">
-                            <a href="javascript:;" class="c-link dropdown-toggle">Contacto</a>
+                            <a href="contacto.php" class="c-link dropdown-toggle">Contacto</a>
                         </li>
                         <li class="c-menu-type-classic">
                             <a href="javascript:;" class="c-link dropdown-toggle">Mar de Ajó</a>

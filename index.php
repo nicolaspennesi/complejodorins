@@ -11,9 +11,7 @@
     </head>
 
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen">
-
         <?php include("menu.php"); ?>
-
         <!-- BEGIN: PAGE CONTAINER -->
         <div class="c-layout-page">
             <!-- BEGIN: PAGE CONTENT -->
@@ -48,7 +46,7 @@
                                 <!--BEGIN: ACTION BUTTON -->
                                 <div class="tp-caption randomrotateout" data-x="center" data-y="center" data-hoffset="0" data-voffset="100" data-speed="500" data-start="2000" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;">
-                                    <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
+                                    <a href="contacto.php" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
                                 </div>
                                 <!--END -->
                             </li>
@@ -70,7 +68,7 @@
                                 <!--BEGIN: ACTION BUTTON -->
                                 <div class="tp-caption randomrotateout" data-x="center" data-y="center" data-hoffset="" data-voffset="120" data-speed="500" data-start="1500" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;">
-                                    <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
+                                    <a href="contacto.php" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
                                 </div>
                                 <!--END -->
                             </li>
@@ -90,7 +88,7 @@
                                 <!--BEGIN: ACTION BUTTON -->
                                 <div class="tp-caption randomrotateout" data-x="center" data-y="center" data-hoffset="" data-voffset="120" data-speed="500" data-start="1500" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;">
-                                    <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
+                                    <a href="contacto.php" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
                                 </div>
                                 <!--END -->
                             </li>
@@ -110,7 +108,7 @@
                                 <!--BEGIN: ACTION BUTTON -->
                                 <div class="tp-caption randomrotateout" data-x="center" data-y="center" data-hoffset="" data-voffset="120" data-speed="500" data-start="1500" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;">
-                                    <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
+                                    <a href="contacto.php" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
                                 </div>
                                 <!--END -->
                             </li>
@@ -132,7 +130,7 @@
                                 <!--BEGIN: ACTION BUTTON -->
                                 <div class="tp-caption randomrotateout" data-x="center" data-y="center" data-hoffset="" data-voffset="120" data-speed="500" data-start="1500" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;">
-                                    <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
+                                    <a href="contacto.php" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
                                 </div>
                                 <!--END -->
                             </li>
