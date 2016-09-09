@@ -1,0 +1,122 @@
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.imagecontour {
+  padding: 10px;
+  border: solid 1px #EFEFEF;
+  background-color: #FFFFFF;
+}
+
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.c-copyright a {
+  color: #ccc;
+}
+
+.c-copyright a:hover {
+  color: #c5b96b;
+}
+
+.wow a:hover, .wow a:active, .wow a:focus {
+  color: #FFF;
+}
+
+footer .socicon-btn{
+  border: 1px solid #9da7b1;
+  color: #9da7b1;
+}
+
+.c-mobile-logo {
+  height: 20px;
+}
+
+.c-content-box.c-size-md.redes-sociales {
+  padding-bottom: 0;
+}
+
+.departamento .c-content-blog-post-card-1 .c-body .c-panel .c-tags {
+    float: left;
+}
+
+.c-content-title-1 > .c-line-center,
+.c-content-title-1 > .c-line-right,
+.c-content-title-1 > .c-line-left {
+    background-color: #c3b769;
+}
+
+.c-content-feature-2.servicio p {
+    padding-left: 0;
+}
+
+.c-content-feature-2.servicio h3 {
+    color: #c5b96b;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.tripadvisor {
+  text-align: center;
+}
+
+.tripadvisor .c-content-title-1 > h3 > i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.tripadvisor .btn{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.tripadvisor .owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+.c-content-testimonials-1 .c-testimonial > h3 {
+    font-weight: 400;
+}
+
+.c-content-blog-post-card-1 .c-body .c-title {
+    font-size: 18px;
+}
+
+
+
+@media (min-width: 992px){
+  .c-layout-header .c-brand {
+    margin: 30px 0 30px 0;
+  }
+  .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
+      margin: 12px 0 13px 0;
+  }
+}
