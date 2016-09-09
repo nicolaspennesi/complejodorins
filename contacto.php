@@ -111,9 +111,9 @@
                             <div class="col-md-6">
                                 <div class="c-contact">
                                     <div class="c-content-title-1">
-                                        <h3 class="c-font-uppercase c-font-bold">Solicitá tu reserva</h3>
+                                        <h3 class="c-font-uppercase c-font-bold">Realizá tu consulta</h3>
                                         <div class="c-line-left"></div>
-                                        <p class="c-font-lowercase" style="margin-bottom: 32px;">Completá el formulario para solicitar tu reserva, hacer una consulta o enviarnos un comentario. Pronto nos contactaremos con vos.</p>
+                                        <p class="c-font-lowercase" style="margin-bottom: 32px;">Completá el formulario para realizar una consulta o enviarnos un comentario. Pronto nos contactaremos con vos.</p>
                                     </div>
                                     <form action="#">
                                         <div class="form-group">
@@ -126,10 +126,10 @@
                                             <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" placeholder="Fecha Ingreso" class="form-control c-square c-theme input-lg datepicker">
+                                            <input type="text" placeholder="Fecha ingreso" class="form-control c-square c-theme input-lg datepicker">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" placeholder="Fecha Salida" class="form-control c-square c-theme input-lg datepicker">
+                                            <input type="text" placeholder="Fecha salida" class="form-control c-square c-theme input-lg datepicker">
                                         </div>
                                         <div class="form-group">
                                             <textarea rows="4" name="message" placeholder="Escriba un mensaje aquí..." class="form-control c-theme c-square input-lg"></textarea>
