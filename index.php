@@ -152,7 +152,7 @@
                                 <!--BEGIN: ACTION BUTTON -->
                                 <div class="tp-caption randomrotateout" data-x="center" data-y="center" data-hoffset="" data-voffset="120" data-speed="500" data-start="1500" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;">
-                                    <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
+                                    <a href="contacto.php" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Contactanos</a>
                                 </div>
                                 <!--END -->
                             </li>
@@ -409,7 +409,7 @@
                                             <div class="c-wrapper">
                                                 <div class="c-body c-center">
                                                     <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Facebook </h3>
-                                                    <p class="c-tile-body c-font-white">Hacete fan del Complejo Dorin's y enterate de las últimas novedades, promociones y sorteos!</p>
+                                                    <p id="facebook-mensaje" class="c-tile-body c-font-white">Hacete fan del Complejo Dorin's y enterate de las últimas novedades, promociones y sorteos!</p>
                                                     <a href="https://www.facebook.com/ComplejoDorins" target="_blank" class="btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Ver Fanpage</a>
                                                 </div>
                                             </div>
@@ -419,12 +419,12 @@
                                         <div class="c-tile-content c-arrow-right c-arrow-blue c-content-overlay">
                                             <div class="c-overlay-wrapper">
                                                 <div class="c-overlay-content">
-                                                    <a href="assets/base/img/fb1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                    <a id="facebook-link" href="https://www.facebook.com/ComplejoDorins" target="_blank">
                                                         <i class="icon-magnifier"></i>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/fb1.jpg)"></div>
+                                            <div id="facebook-thumb" class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/fb1.jpg); background-size: cover;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -448,12 +448,12 @@
                                         <div class="c-tile-content c-arrow-right c-arrow-red-2 c-content-overlay">
                                             <div class="c-overlay-wrapper">
                                                 <div class="c-overlay-content">
-                                                    <a href="assets/base/img/yt1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                        <i class="icon-magnifier"></i>
+                                                    <a id="youtube-link" href="https://www.youtube.com/user/ComplejoDorins" target="_blank">
+                                                        <i class="icon-control-play"></i>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/yt1.jpg)"></div>
+                                            <div id="youtube-thumb" class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/yt1.jpg); background-size: cover;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -665,6 +665,38 @@
                         hideThumbsUnderResolution: 0
                     });
                 }
+
+                //Redes Sociales Ajax//
+                $.get( "youtube.php", function() {
+                  console.log("Consultando canal de Youtube...");
+                })
+                  .done(function(data) {
+                    // console.log("Resultado Youtube Ok");
+                    // console.log(data);
+                    if (data.imagen){
+                        $('#youtube-thumb').css("background-image", "url("+data.imagen+")");
+                    }
+                  })
+                  .fail(function() {
+                    console.log("Se produjo un error consultando canal de YouTube");
+                  });
+
+                $.get( "facebook.php", function() {
+                  console.log("Consultando canal de Facebook...");
+                })
+                  .done(function(data) {
+                    // console.log("Resultado Facebook Ok");
+                    // console.log(data);
+                    if (data.imagen){
+                        $('#facebook-thumb').css("background-image", "url("+data.imagen+")");
+                    }
+                    if (data.mensaje){
+                        $('#facebook-mensaje').text(data.mensaje);
+                    }
+                  })
+                  .fail(function() {
+                    console.log("Se produjo un error consultando canal de Facebook");
+                  });
             }); //ready
         </script>
         <!-- END: PAGE SCRIPTS -->

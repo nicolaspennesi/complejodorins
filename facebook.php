@@ -29,7 +29,7 @@ $data = [
     'access_token' => '571977239674701|e5g7hL6fgASyUIHbm329FeP-t8M',
 ];
 
-$url = $base_url . "/" . '232214253501167_950734061649179' . "?" . http_build_query($data);
+$url = $base_url . "/" . $last_post_id . "?" . http_build_query($data);
 
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
