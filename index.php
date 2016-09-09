@@ -1,3 +1,5 @@
+<?php $section = "inicio"; ?>
+
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
