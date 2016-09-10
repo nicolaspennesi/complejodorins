@@ -13,7 +13,7 @@
     </head>
 
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen">
-        <?php include("menu.php"); ?>
+        <?php include("header1.php"); ?>
         <!-- BEGIN: PAGE CONTAINER -->
         <div class="c-layout-page">
             <!-- BEGIN: PAGE CONTENT -->
@@ -670,7 +670,7 @@
 
                 //Redes Sociales Ajax//
                 $.get( "youtube.php", function() {
-                  console.log("Consultando canal de Youtube...");
+                //   console.log("Consultando canal de Youtube...");
                 })
                   .done(function(data) {
                     // console.log("Resultado Youtube Ok");
@@ -684,7 +684,7 @@
                   });
 
                 $.get( "facebook.php", function() {
-                  console.log("Consultando canal de Facebook...");
+                //   console.log("Consultando canal de Facebook...");
                 })
                   .done(function(data) {
                     // console.log("Resultado Facebook Ok");

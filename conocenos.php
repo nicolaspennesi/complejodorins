@@ -1,4 +1,4 @@
-<?php $section = "contacto"; ?>
+<?php $section = "conocenos"; ?>
 
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -12,7 +12,7 @@
     </head>
 
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen c-layout-header-topbar">
-        <?php include("header1.php"); ?>
+        <?php include("header2.php"); ?>
         <!-- BEGIN: PAGE CONTAINER -->
         <div class="c-layout-page">
             <!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-4 -->
@@ -116,37 +116,26 @@
                                         <div class="c-line-left"></div>
                                         <p class="c-font-lowercase" style="margin-bottom: 32px;">Completá el formulario para realizar una consulta o enviarnos un comentario. Pronto nos contactaremos con vos.</p>
                                     </div>
-                                    <form id="formulario" action="#" data-toggle="validator">
+                                    <form action="#">
                                         <div class="form-group">
-                                            <input required type="text" name="nombre" placeholder="Nombre completo" class="form-control c-square c-theme input-lg">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                        <div class="form-group">
-                                            <input required type="email" name="email" placeholder="Email" class="form-control c-square c-theme input-lg">
-                                            <div class="help-block with-errors"></div>
+                                            <input required type="text" placeholder="Nombre completo" class="form-control c-square c-theme input-lg">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="telefono" placeholder="Teléfono" class="form-control c-square c-theme input-lg">
-                                            <div class="help-block with-errors"></div>
+                                            <input type="text" placeholder="Email" class="form-control c-square c-theme input-lg">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="checkin" placeholder="Fecha ingreso" class="form-control c-square c-theme input-lg datepicker">
-                                            <div class="help-block with-errors"></div>
+                                            <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="checkout" placeholder="Fecha salida" class="form-control c-square c-theme input-lg datepicker">
-                                            <div class="help-block with-errors"></div>
+                                            <input type="text" placeholder="Fecha ingreso" class="form-control c-square c-theme input-lg datepicker">
                                         </div>
                                         <div class="form-group">
-                                            <textarea required rows="4" name="mensaje" placeholder="Escriba un mensaje aquí..." class="form-control c-theme c-square input-lg"></textarea>
-                                            <div class="help-block with-errors"></div>
+                                            <input type="text" placeholder="Fecha salida" class="form-control c-square c-theme input-lg datepicker">
                                         </div>
-                                        <div>
-                                            <button id="formulario-boton" type="submit" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">Enviar</button>
-                                            <i id="formulario-enviando" class="fa fa-spin fa-refresh fa-2x fa-fw" style="position: absolute; margin-top: 7px; margin-left: 15px; display:none;"></i>
-                                            <button id="formulario-exito" type="button" class="btn c-btn-green-2 c-btn-uppercase btn-lg c-btn-bold c-btn-square c-btn-border-2x" style="display:none;">¡Mensaje enviado!</button>
-                                            <button id="formulario-error" type="button" class="btn c-btn-red-2 c-btn-uppercase btn-lg c-btn-bold c-btn-square c-btn-border-2x" style="display:none;">No se pudo enviar el mensaje</button>
+                                        <div class="form-group">
+                                            <textarea rows="4" name="message" placeholder="Escriba un mensaje aquí..." class="form-control c-theme c-square input-lg"></textarea>
                                         </div>
+                                        <button type="submit" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">Enviar</button>
                                     </form>
                                 </div>
                             </div>
@@ -185,7 +174,6 @@
         <script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
         <script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
         <script src="assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" type="text/javascript"></script>
-        <script src="assets/plugins/bootstrap-validator/validator.min.js" type="text/javascript"></script>
 
         <!-- END: LAYOUT PLUGINS -->
         <!-- BEGIN: THEME SCRIPTS -->
@@ -193,31 +181,6 @@
         <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
         <script src="assets/base/js/app.js" type="text/javascript"></script>
         <script>
-            function enviarMensaje(event) {
-                event.preventDefault()
-                $('formulario-boton').prop('disabled', true);
-                $('#formulario-enviando').show();
-                $('#formulario-enviando').css('display', 'inline-block');
-                $('#formulario-error').hide();
-                $('#formulario-exito').hide();
-
-                $.post( "enviar.php", $('#formulario').serialize(), function() {
-                //   console.log("Enviando Mensaje...");
-                })
-                  .done(function() {
-                      $('#formulario-enviando').hide();
-                      $('#formulario-error').hide();
-                      $('#formulario-exito').show();
-                      $('#formulario')[0].reset();
-                  })
-                  .fail(function() {
-                      $('#formulario-enviando').hide();
-                      $('#formulario-exito').hide();
-                      $('#formulario-error').show();
-                      $('formulario-boton').prop('disabled', false);
-                  })
-            };
-
             $(document).ready(function()
             {
                 App.init(); // init core
@@ -226,14 +189,6 @@
                     language: "es",
                     autoclose: true
                 });
-                $('#formulario').validator().on('submit', function (event) {
-                  if (event.isDefaultPrevented()) {
-                    // handle the invalid form...
-                  } else {
-                    //if it's all good
-                    enviarMensaje(event);
-                  }
-                })
             });
         </script>
         <!-- END: THEME SCRIPTS -->
