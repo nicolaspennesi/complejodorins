@@ -122,7 +122,17 @@ footer .socicon-btn{
     font-size: 18px;
 }
 
+#conocenos .c-content-feature-4 .c-feature-bg {
+    width: 70%;
+}
 
+#conocenos .c-content-feature-4 .c-content-area {
+  width: 30%;
+}
+
+#conocenos .c-content-feature-4 .c-feature-content {
+    width: 20%;
+}
 
 @media (min-width: 992px){
   .c-layout-header .c-brand {
@@ -130,5 +140,13 @@ footer .socicon-btn{
   }
   .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
       margin: 12px 0 13px 0;
+  }
+}
+@media (max-width: 1200px){
+  #contacto  .btn + .btn {
+    margin-left: 0;
+  }
+  #contacto  .btn {
+    margin-top: 10px;
   }
 }

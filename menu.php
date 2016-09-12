@@ -20,7 +20,7 @@
                 <a href="index.php" class="c-link dropdown-toggle">Inicio</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "conocenos" ? " c-active" : ""); ?>">
-                <a href="javascript:;" class="c-link dropdown-toggle">Conocenos</a>
+                <a href="conocenos.php" class="c-link dropdown-toggle">Conocenos</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "apartamentos" ? " c-active" : ""); ?>">
                 <a href="javascript:;" class="c-link dropdown-toggle">Apartamentos
