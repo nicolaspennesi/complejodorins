@@ -1,6 +1,6 @@
 <?php
 
-$to = "nicolaspennesi@gmail.com";
+$to = "info@complejodorins.com";
 
 $subject = "Consulta desde web";
 $message = "<br><br>Nombre: " . $_POST['nombre'];

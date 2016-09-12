@@ -11,17 +11,15 @@
         <?php include("head.php"); ?>
     </head>
 
-    <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen c-layout-header-topbar">
-        <?php include("header1.php"); ?>
+    <body id="contacto" class="c-layout-header c-layout-header-3 c-layout-header-dark-mobile">
+        <?php include("header2.php"); ?>
         <!-- BEGIN: PAGE CONTAINER -->
         <div class="c-layout-page">
             <!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-4 -->
-            <div class="c-layout-breadcrumbs-1 c-bgimage-full   c-fonts-uppercase c-fonts-bold   c-bg-img-center" style="background-image: url(assets/base/img/bg-contacto.jpg); background-size: cover;">
-                <div class="c-breadcrumbs-wrapper centered">
-                    <div class="container">
-                        <div class="c-page-title">
-                            <h2 class="c-font-uppercase c-font-bold c-font-white c-font-36 c-font-slim c-opacity-09">Contacto</h2>
-                        </div>
+            <div class="c-layout-breadcrumbs-1 c-bgimage c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" style="background-image: url(assets/base/img/bg-contacto.jpg); background-size: cover;">
+                <div class="container centered">
+                    <div class="c-page-title">
+                        <h2 class="c-font-uppercase c-font-bold c-font-white c-font-36 c-font-slim">Contacto</h2>
                     </div>
                 </div>
             </div>
