@@ -22,6 +22,7 @@
 <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
 <link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css" />
 <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/plugins/weather-icons/css/weather-icons.min.css" rel="stylesheet" type="text/css" />
 <!-- END: BASE PLUGINS -->
 <!-- BEGIN THEME STYLES -->
 <link href="assets/base/css/plugins.css" rel="stylesheet" type="text/css" />
