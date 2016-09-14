@@ -33,7 +33,7 @@
                             <div class="c-content-media-1 c-bordered wow animated fadeInLeft">
                                 <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Ubicación</div>
                                 <a href="#" class="c-title c-font-uppercase c-theme-on-hover c-font-bold">Un lugar privilegiado</a>
-                                <p>Complejo Dorin’s se encuentra en el centro de la ciudad de mar de ajo, esta ubicación privilegiada le brinda a nuestros huéspedes la practicidad de estar cerca de las playas del barrio San Rafael, bares, restaurantes, supermercados, casas de comidas, tiendas de artículos en general.</p>
+                                <p>Complejo Dorin’s se encuentra en el centro de la ciudad de Mar de Ajó. Esta ubicación privilegiada le brinda a nuestros huéspedes la practicidad de estar cerca de las playas del barrio San Rafael, bares, restaurantes, supermercados, casas de comidas y tiendas de artículos en general.</p>
                             </div>
                         </div>
                         <div class="col-md-8">
@@ -69,7 +69,7 @@
                                             <p class="c-right">Diseño Amplio y Luminoso</p>
                                         </div>
                                         <div class="c-content">
-                                            <p class="c-margin-b-30 c-right wow animate fadeInDown" style="visibility: visible; animation-name: fadeInDown;"> El edificio está construido en dos plantas de 8 apartamento cada una. Los apartamentos presentan un diseño basado en la luminosidad y la amplitud de los ambientes para que los ocupantes gocen de espacios generosos. En la planta baja el huésped encontrara locales comerciales de artículos de primeras marcas. </p>
+                                            <p class="c-margin-b-30 c-right wow animate fadeInDown" style="visibility: visible; animation-name: fadeInDown;"> El edificio está construido en dos plantas de ocho apartamentos cada una. Los apartamentos presentan un diseño basado en la luminosidad y la amplitud de los ambientes para que los ocupantes gocen de espacios generosos. En la planta baja el huésped encontrará locales comerciales de artículos de primeras marcas. </p>
                                         </div>
                                     </div>
                                 </div>
