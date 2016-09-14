@@ -16,7 +16,7 @@
         <!-- BEGIN: PAGE CONTAINER -->
         <div class="c-layout-page">
 
-            <div class="c-layout-breadcrumbs-1 c-bgimage c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" style="background-image: url(assets/base/img/bg-mar-de-ajo.jpg); background-size: cover; background-position-y: -180px;">
+            <div class="c-layout-breadcrumbs-1 c-bgimage c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" style="background-image: url(assets/base/img/bg-mar-de-ajo.jpg); background-size: cover;">
                 <div class="container centered">
                     <div class="c-page-title">
                         <h2 class="c-font-uppercase c-font-bold c-font-white c-font-36 c-font-slim">Mar de Ajó</h2>
