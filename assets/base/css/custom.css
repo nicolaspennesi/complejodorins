@@ -1,163 +1,163 @@
 .vertical-align {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .centered {
-  text-align: center;
+    text-align: center;
 }
 
 .c-content-feedback-1 > .row > div .c-content-title-1 > p {
-  margin-bottom: 52px;
+    margin-bottom: 52px;
 }
 
 .c-content-feedback-1 > .row > div > .c-container:last-child p {
-  margin-bottom: 52px;
+    margin-bottom: 52px;
 }
 
 .imagecontour {
-  padding: 10px;
-  border: solid 1px #EFEFEF;
-  background-color: #FFFFFF;
+    padding: 10px;
+    border: solid 1px #EFEFEF;
+    background-color: #FFFFFF;
 }
 
 .effect2
 {
-  position: relative;
+    position: relative;
 }
 .effect2:before, .effect2:after
 {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  box-shadow: 0 15px 10px #777;
-  transform: rotate(-3deg);
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
 }
 .effect2:after
 {
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
 }
 
 .c-copyright a {
-  color: #ccc;
+    color: #ccc;
 }
 
 .c-copyright a:hover {
-  color: #c5b96b;
+    color: #c5b96b;
 }
 
 .wow a:hover, .wow a:active, .wow a:focus {
-  color: #FFF;
+    color: #FFF;
 }
 
 footer .socicon-btn{
-  border: 1px solid #9da7b1;
-  color: #9da7b1;
+    border: 1px solid #9da7b1;
+    color: #9da7b1;
 }
 
 .c-mobile-logo {
-  height: 20px;
+    height: 30px;
 }
 
 .c-content-box.c-size-md.redes-sociales {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .departamento .c-content-blog-post-card-1 .c-body .c-panel .c-tags {
-  float: left;
+    float: left;
 }
 
 .c-content-title-1 > .c-line-center,
 .c-content-title-1 > .c-line-right,
 .c-content-title-1 > .c-line-left {
-  background-color: #c3b769;
+    background-color: #c3b769;
 }
 
 .c-content-feature-2.servicio p {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .c-content-feature-2.servicio h3 {
-  color: #c5b96b;
+    color: #c5b96b;
 }
 
 .row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
 }
 
 .tripadvisor {
-  text-align: center;
+    text-align: center;
 }
 
 .tripadvisor .c-content-title-1 > h3 > i {
-  font-size: 18px;
-  color: #fff;
+    font-size: 18px;
+    color: #fff;
 }
 
 .tripadvisor .btn{
-  font-size: 18px;
-  margin-top: 30px;
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 .tripadvisor .owl-theme .owl-controls {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .c-content-testimonials-1 .c-testimonial > h3 {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .c-content-blog-post-card-1 .c-body .c-title {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 #conocenos .c-content-feature-4 .c-feature-bg {
-  width: 70%;
+    width: 70%;
 }
 
 #conocenos .c-content-feature-4 .c-content-area {
-  width: 30%;
+    width: 30%;
 }
 
 #conocenos .c-content-feature-4 .c-feature-content {
-  width: 20%;
+    width: 20%;
 }
 
 #mar-de-ajo .c-content-overlay img {
-  width: 100%;
+    width: 100%;
 }
 
 @media (min-width: 992px){
-  .c-layout-header .c-brand {
-    margin: 30px 0 30px 0;
-  }
-  .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
-    margin: 12px 0 13px 0;
-  }
+    .c-layout-header .c-brand {
+        margin: 30px 0 30px 0;
+    }
+    .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
+        margin: 12px 0 13px 0;
+    }
 }
 
 @media (max-width: 991px){
-  .c-content-blog-post-card-1-grid {
-    padding-right: 0;
-  }
+    .c-content-blog-post-card-1-grid {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 1200px){
-  #contacto  .btn + .btn {
-    margin-left: 0;
-  }
-  #contacto  .btn {
-    margin-top: 10px;
-  }
+    #contacto  .btn + .btn {
+        margin-left: 0;
+    }
+    #contacto  .btn {
+        margin-top: 10px;
+    }
 }
