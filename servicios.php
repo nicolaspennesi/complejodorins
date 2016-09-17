@@ -89,7 +89,7 @@
                     <div class="row">
 
                         <div class="col-md-12">
-                            <div class="c-content-media-2-slider" data-slider="owl" data-single-item="true" data-auto-play="5000">
+                            <div class="c-content-media-2-slider" data-slider="owl" data-single-item="true" data-auto-play="4000">
                                 <div class="owl-carousel owl-theme c-theme owl-single">
                                     <div class="item">
                                         <div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/servicios-generales-3.jpg); min-height: 380px;"></div>
