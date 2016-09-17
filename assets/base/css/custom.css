@@ -54,8 +54,16 @@
     color: #c5b96b;
 }
 
-.wow a:hover, .wow a:active, .wow a:focus {
+#contacto .wow a:hover, #contacto .wow a:active, #contacto .wow a:focus {
     color: #FFF;
+}
+
+.link-to-servicios:hover {
+    color: #FFF;
+}
+
+.link-to-servicios:active, .link-to-servicios:focus {
+    color: #3f444a;
 }
 
 footer .socicon-btn{

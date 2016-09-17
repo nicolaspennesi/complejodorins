@@ -43,7 +43,7 @@
                 </ul>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "servicios" ? " c-active" : ""); ?>">
-                <a href="javascript:;" class="c-link dropdown-toggle">Servicios</a>
+                <a href="servicios.php" class="c-link dropdown-toggle">Servicios</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "mar-de-ajo" ? " c-active" : ""); ?>">
                 <a href="mar-de-ajo.php" class="c-link dropdown-toggle">Mar de Ajó</a>

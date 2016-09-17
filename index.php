@@ -286,8 +286,8 @@
                         <!-- End-->
                     </div>
                     <!-- End-->
-                    <div class="alert alert-danger" role="alert" style="margin-top:24px;"><strong>El complejo no admite ningún tipo de mascota.</strong></div>
-                    <div class="alert alert-danger" role="alert" style="margin-top:24px;"><strong>Solo podrán ingresar y permanecer en el apartamento el número de ocupantes bajo el cual se pautó la reserva previamente.</strong></div>
+                    <div class="alert alert-danger" role="alert" style="margin-top:24px;">El complejo no admite <strong>ningún tipo de mascota</strong>.</div>
+                    <div class="alert alert-danger" role="alert" style="margin-top:24px;">Solo podrán <strong>ingresar y permanecer</strong> en el apartamento el <strong>número de ocupantes</strong> bajo el cual <strong>se pautó la reserva previamente</strong>.</div>
                 </div>
             </div>
             <!-- END: APARTAMENTOS -->
@@ -308,8 +308,8 @@
                                         </div>
                                         <div class="c-content animated wow fadeInDown" data-wow-delay="0.7s">
                                             <p class="c-margin-b-30"> Complejo Dorins crea verano a verano el ambiente familiar ideal para producir una desconeccion total de la rutina. </p>
-                                            <button class="btn btn-lg c-theme-btn c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
-                                            data-wow-delay="1s">CONOCENOS</button>
+                                            <a href="conocenos.php" class="btn btn-lg c-theme-btn c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                            data-wow-delay="1s">CONOCENOS</a>
                                         </div>
                                     </div>
                                 </div>
@@ -359,7 +359,7 @@
                                     <div class="c-wrapper">
                                         <div class="c-body c-padding-20 c-center vertical-align">
                                             <h3 class="c-font-19 c-line-height-28 c-font-uppercase c-font-white c-font-bold">
-                                                Brindamos los mejores servicios a nuestros huéspedes.<br />Conocelos todos <a href="#">acá</a>.
+                                                Brindamos los mejores servicios a nuestros huéspedes.<br />Conocelos todos <a class="link-to-servicios" href="servicios.php">acá</a>.
                                             </h3>
                                         </div>
                                     </div>
