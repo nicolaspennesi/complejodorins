@@ -169,15 +169,6 @@
                 </div>
             </div>
 
-            <div class="c-content-box c-size-md c-bg-grey-1" style="padding-top: 0;">
-                <div class="container">
-                    <div class="row">
-
-
-                    </div>
-                </div>
-            </div>
-
             <!-- END: PAGE CONTENT -->
         </div>
         <!-- END: PAGE CONTAINER -->

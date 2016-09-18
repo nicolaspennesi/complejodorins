@@ -17,39 +17,22 @@
     <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-theme c-fonts-uppercase c-fonts-bold">
         <ul class="nav navbar-nav c-theme-nav">
             <li class="c-menu-type-classic<?php echo ($section == "inicio" ? " c-active" : ""); ?>">
-                <a href="index.php" class="c-link dropdown-toggle">Inicio</a>
+                <a href="index.php" class="c-link">Inicio</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "conocenos" ? " c-active" : ""); ?>">
-                <a href="conocenos.php" class="c-link dropdown-toggle">Conocenos</a>
+                <a href="conocenos.php" class="c-link">Conocenos</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "apartamentos" ? " c-active" : ""); ?>">
-                <a href="javascript:;" class="c-link dropdown-toggle">Apartamentos
-                    <span class="c-arrow c-toggler"></span>
-                </a>
-                <ul class="dropdown-menu c-menu-type-classicc-pull-left">
-                    <li class="dropdown-submenu">
-                        <a href="#">Dos Ocupantes (Opción a 3)</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                        <a href="#">Cuatro Ocupantes Pre-Estándar</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                        <a href="#">Cuatro Ocupantes</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                        <a href="#">Seis Ocupantes</a>
-                    </li>
-
-                </ul>
+                <a href="apartamentos.php" class="c-link">Apartamentos</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "servicios" ? " c-active" : ""); ?>">
-                <a href="servicios.php" class="c-link dropdown-toggle">Servicios</a>
+                <a href="servicios.php" class="c-link">Servicios</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "mar-de-ajo" ? " c-active" : ""); ?>">
-                <a href="mar-de-ajo.php" class="c-link dropdown-toggle">Mar de Ajó</a>
+                <a href="mar-de-ajo.php" class="c-link">Mar de Ajó</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "contacto" ? " c-active" : ""); ?>">
-                <a href="contacto.php" class="c-link dropdown-toggle">Contacto</a>
+                <a href="contacto.php" class="c-link">Contacto</a>
             </li>
 
         </ul>
