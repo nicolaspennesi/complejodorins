@@ -183,7 +183,7 @@
                                     <div class="c-media c-content-overlay">
                                         <div class="c-overlay-wrapper">
                                             <div class="c-overlay-content">
-                                                <a href="assets/base/img/departamento-2-ocupantes.jpg" data-lightbox="fancybox" data-fancybox-group="gallery">
+                                                <a href="apartamentos.php#apartamento-2">
                                                     <i class="icon-magnifier"></i>
                                                 </a>
                                             </div>
@@ -191,7 +191,7 @@
                                         <img class="c-overlay-object img-responsive" src="assets/base/img/departamento-2-ocupantes.jpg" alt=""> </div>
                                     <div class="c-body">
                                         <div class="c-title c-font-uppercase c-font-bold">
-                                            <a href="#">Dos Ocupantes (Opción a 3)</a>
+                                            <a href="apartamentos.php#apartamento-2">Dos Ocupantes (Opción a 3)</a>
                                         </div>
                                         <div class="c-panel">
                                             <ul class="c-tags c-theme-ul-bg">
@@ -209,7 +209,7 @@
                                     <div class="c-media c-content-overlay">
                                         <div class="c-overlay-wrapper">
                                             <div class="c-overlay-content">
-                                                <a href="assets/base/img/departamento-4-ocupantes.jpg" data-lightbox="fancybox" data-fancybox-group="gallery">
+                                                <a href="apartamentos.php#apartamento-4-pe" data-lightbox="fancybox" data-fancybox-group="gallery">
                                                     <i class="icon-magnifier"></i>
                                                 </a>
                                             </div>
@@ -217,7 +217,7 @@
                                         <img class="c-overlay-object img-responsive" src="assets/base/img/departamento-4-ocupantes-pre-estandar.jpg" alt=""> </div>
                                     <div class="c-body">
                                         <div class="c-title c-font-uppercase c-font-bold">
-                                            <a href="#">Cuatro Ocupantes Pre-Estándar</a>
+                                            <a href="apartamentos.php#apartamento-4-pe">Cuatro Ocupantes Pre-Estándar</a>
                                         </div>
                                         <div class="c-panel">
                                             <ul class="c-tags c-theme-ul-bg">
@@ -235,7 +235,7 @@
                                     <div class="c-media c-content-overlay">
                                         <div class="c-overlay-wrapper">
                                             <div class="c-overlay-content">
-                                                <a href="assets/base/img/departamento-4-ocupantes.jpg" data-lightbox="fancybox" data-fancybox-group="gallery">
+                                                <a href="apartamentos.php#apartamento-4" data-lightbox="fancybox" data-fancybox-group="gallery">
                                                     <i class="icon-magnifier"></i>
                                                 </a>
                                             </div>
@@ -243,7 +243,7 @@
                                         <img class="c-overlay-object img-responsive" src="assets/base/img/departamento-4-ocupantes.jpg" alt=""> </div>
                                     <div class="c-body">
                                         <div class="c-title c-font-uppercase c-font-bold">
-                                            <a href="#">Cuatro Ocupantes</a>
+                                            <a href="apartamentos.php#apartamento-4">Cuatro Ocupantes</a>
                                         </div>
                                         <div class="c-panel">
                                             <ul class="c-tags c-theme-ul-bg">
@@ -261,7 +261,7 @@
                                     <div class="c-media c-content-overlay">
                                         <div class="c-overlay-wrapper">
                                             <div class="c-overlay-content">
-                                                <a href="assets/base/img/departamento-6-ocupantes.jpg" data-lightbox="fancybox" data-fancybox-group="gallery">
+                                                <a href="apartamentos.php#apartamento-6" data-lightbox="fancybox" data-fancybox-group="gallery">
                                                     <i class="icon-magnifier"></i>
                                                 </a>
                                             </div>
@@ -269,7 +269,7 @@
                                         <img class="c-overlay-object img-responsive" src="assets/base/img/departamento-6-ocupantes.jpg" alt=""> </div>
                                     <div class="c-body">
                                         <div class="c-title c-font-uppercase c-font-bold">
-                                            <a href="#">Seis Ocupantes</a>
+                                            <a href="apartamentos.php#apartamento-6">Seis Ocupantes</a>
                                         </div>
                                         <div class="c-panel">
                                             <ul class="c-tags c-theme-ul-bg">

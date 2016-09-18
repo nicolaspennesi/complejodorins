@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="c-content-box c-size-md c-bg-grey-1">
+            <div id="apartamento-2" class="c-content-box c-size-md c-bg-grey-1">
                 <div class="container">
                     <div class="c-content-title-1">
                         <h3 class="c-center c-font-uppercase c-font-bold">Dos Ocupantes (Con Opción a Tres)</h3>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="c-content-box c-size-md c-bg-white">
+            <div id="apartamento-4-pe" class="c-content-box c-size-md c-bg-white">
                 <div class="container">
                     <div class="c-content-title-1">
                         <h3 class="c-center c-font-uppercase c-font-bold">Cuatro Ocupantes (Pre-Estándar)</h3>
@@ -162,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="c-content-box c-size-md c-bg-grey-1">
+            <div id="apartamento-4" class="c-content-box c-size-md c-bg-grey-1">
                 <div class="container">
                     <div class="c-content-title-1">
                         <h3 class="c-center c-font-uppercase c-font-bold">Cuatro Ocupantes</h3>
@@ -253,7 +253,7 @@
                 </div>
             </div>
 
-            <div class="c-content-box c-size-md c-bg-white">
+            <div id="apartamento-6" class="c-content-box c-size-md c-bg-white">
                 <div class="container">
                     <div class="c-content-title-1">
                         <h3 class="c-center c-font-uppercase c-font-bold">Seis Ocupantes</h3>
