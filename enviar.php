@@ -12,7 +12,7 @@ $message .= "<br>Mensaje: " . $_POST['mensaje'];
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
-$headers .= "From: Web Complejo Dorin's <web@littlebox.com.ar>". "\r\n";
+$headers .= "From: Web Complejo Dorin's <info@complejodorins.com>". "\r\n";
 $headers .= "Reply-To: " . $_POST['email'] . "\r\n";
 
 if (mail($to, $subject, $message, $headers)) {
