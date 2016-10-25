@@ -1,6 +1,6 @@
 <div class="c-navbar-wrapper clearfix">
     <div class="c-brand c-pull-left">
-        <a href="index.html" class="c-logo">
+        <a href="/" class="c-logo">
             <img src="assets/base/img/logo-amarillo.png" alt="Logo" class="c-desktop-logo">
             <img src="assets/base/img/logo-amarillo.png" alt="Logo" class="c-desktop-logo-inverse">
             <img src="assets/base/img/logo-amarillo.png" alt="Logo" class="c-mobile-logo"> </a>
@@ -17,7 +17,7 @@
     <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-theme c-fonts-uppercase c-fonts-bold">
         <ul class="nav navbar-nav c-theme-nav">
             <li class="c-menu-type-classic<?php echo ($section == "inicio" ? " c-active" : ""); ?>">
-                <a href="index.php" class="c-link">Inicio</a>
+                <a href="/" class="c-link">Inicio</a>
             </li>
             <li class="c-menu-type-classic<?php echo ($section == "conocenos" ? " c-active" : ""); ?>">
                 <a href="conocenos.php" class="c-link">Conocenos</a>

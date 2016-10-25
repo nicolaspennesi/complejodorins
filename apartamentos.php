@@ -89,6 +89,30 @@
                             </div>
                         </div>
 
+                        <div class="c-content-isotope-item">
+                            <div class="c-content-isotope-image-container">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-2-7-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/apartamentos-2-7.jpg" data-options="thumbnail:'assets/base/img/apartamentos-2-7-t.jpg'">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-search c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="c-content-isotope-item">
+                            <div class="c-content-isotope-image-container">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-2-8-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-1" href="assets/base/img/apartamentos-2-8.jpg" data-options="thumbnail:'assets/base/img/apartamentos-2-8-t.jpg'">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-search c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -158,6 +182,17 @@
                             </div>
                         </div>
 
+                        <div class="c-content-isotope-item">
+                            <div class="c-content-isotope-image-container">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-2-9-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-2" href="assets/base/img/apartamentos-2-9.jpg" data-options="thumbnail:'assets/base/img/apartamentos-2-9-t.jpg'">
+                                    <div class="c-content-isotope-overlay-icon">
+                                        <i class="fa fa-search c-font-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -207,8 +242,8 @@
 
                         <div class="c-content-isotope-item">
                             <div class="c-content-isotope-image-container">
-                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-4-4-t.jpg" />
-                                <div class="c-content-isotope-overlay c-ilightbox-image-3" href="assets/base/img/apartamentos-4-4.jpg" data-options="thumbnail:'assets/base/img/apartamentos-4-4-t.jpg'">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-6-3-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-3" href="assets/base/img/apartamentos-6-3.jpg" data-options="thumbnail:'assets/base/img/apartamentos-6-3-t.jpg'">
                                     <div class="c-content-isotope-overlay-icon">
                                         <i class="fa fa-search c-font-white"></i>
                                     </div>
@@ -276,8 +311,8 @@
 
                         <div class="c-content-isotope-item">
                             <div class="c-content-isotope-image-container">
-                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-6-2-t.jpg" />
-                                <div class="c-content-isotope-overlay c-ilightbox-image-4" href="assets/base/img/apartamentos-6-2.jpg" data-options="thumbnail:'assets/base/img/apartamentos-6-2-t.jpg'">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-4-3-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-4" href="assets/base/img/apartamentos-4-3.jpg" data-options="thumbnail:'assets/base/img/apartamentos-4-3-t.jpg'">
                                     <div class="c-content-isotope-overlay-icon">
                                         <i class="fa fa-search c-font-white"></i>
                                     </div>
@@ -298,8 +333,8 @@
 
                         <div class="c-content-isotope-item c-item-size-double">
                             <div class="c-content-isotope-image-container">
-                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-6-4-t.jpg" />
-                                <div class="c-content-isotope-overlay c-ilightbox-image-4" href="assets/base/img/apartamentos-6-4.jpg" data-options="thumbnail:'assets/base/img/apartamentos-6-4-t.jpg'">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-6-2-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-4" href="assets/base/img/apartamentos-6-2.jpg" data-options="thumbnail:'assets/base/img/apartamentos-6-2-t.jpg'">
                                     <div class="c-content-isotope-overlay-icon">
                                         <i class="fa fa-search c-font-white"></i>
                                     </div>
@@ -331,8 +366,8 @@
 
                         <div class="c-content-isotope-item">
                             <div class="c-content-isotope-image-container">
-                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-4-5-t.jpg" />
-                                <div class="c-content-isotope-overlay c-ilightbox-image-4" href="assets/base/img/apartamentos-4-5.jpg" data-options="thumbnail:'assets/base/img/apartamentos-4-5-t.jpg'">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-6-4-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-4" href="assets/base/img/apartamentos-6-4.jpg" data-options="thumbnail:'assets/base/img/apartamentos-6-4-t.jpg'">
                                     <div class="c-content-isotope-overlay-icon">
                                         <i class="fa fa-search c-font-white"></i>
                                     </div>
