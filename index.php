@@ -125,7 +125,7 @@
                                     <h3 class="c-main-title c-font-55 c-font-bold c-font-center c-font-uppercase c-font-white">
                                         Cerca de todo lo que te gusta,
                                         <br />
-                                        lejos de todo lo que te aborrece.
+                                        lejos de todo lo que te preocupa.
                                     </h3>
                                 </div>
                                 <!--END -->
