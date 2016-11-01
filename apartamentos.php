@@ -264,8 +264,8 @@
 
                         <div class="c-content-isotope-item">
                             <div class="c-content-isotope-image-container">
-                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-2-3-t.jpg" />
-                                <div class="c-content-isotope-overlay c-ilightbox-image-3" href="assets/base/img/apartamentos-2-3.jpg" data-options="thumbnail:'assets/base/img/apartamentos-2-3-t.jpg'">
+                                <img class="c-content-isotope-image" src="assets/base/img/apartamentos-4-6-t.jpg" />
+                                <div class="c-content-isotope-overlay c-ilightbox-image-3" href="assets/base/img/apartamentos-4-6.jpg" data-options="thumbnail:'assets/base/img/apartamentos-4-6-t.jpg'">
                                     <div class="c-content-isotope-overlay-icon">
                                         <i class="fa fa-search c-font-white"></i>
                                     </div>
