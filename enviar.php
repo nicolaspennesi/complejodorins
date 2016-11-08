@@ -6,6 +6,7 @@ $subject = "Consulta desde web";
 $message = "<br><br>Nombre: " . $_POST['nombre'];
 $message .= "<br>Email: " . $_POST['email'];
 $message .= "<br>Teléfono: " . $_POST['telefono'];
+$message .= "<br>Cantidad de Ocupantes: " . $_POST['ocupantes'];
 $message .= "<br>Checkin: " . $_POST['checkin'];
 $message .= "<br>Checkout: " . $_POST['checkout'];
 $message .= "<br>Mensaje: " . $_POST['mensaje'];

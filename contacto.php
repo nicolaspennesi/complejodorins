@@ -128,6 +128,10 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="form-group">
+                                            <input type="text" required name="ocupantes" placeholder="Cantidad de Ocupantes" class="form-control c-square c-theme input-lg">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
                                             <input type="text" name="checkin" placeholder="Fecha ingreso" class="form-control c-square c-theme input-lg datepicker">
                                             <div class="help-block with-errors"></div>
                                         </div>
