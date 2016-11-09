@@ -701,6 +701,8 @@
                   });
             }); //ready
         </script>
+
+        <?php include("analytics.php"); ?>
         <!-- END: PAGE SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
     </body>

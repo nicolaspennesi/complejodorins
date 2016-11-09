@@ -243,6 +243,7 @@
         <script src="//maps.google.com/maps/api/js?key=AIzaSyBfk_Wlm16-TfZXARG--uLtcsvW4T2-4IE" type="text/javascript"></script>
         <script src="assets/plugins/gmaps/gmaps.js" type="text/javascript"></script>
         <script src="assets/base/js/scripts/pages/contact.js" type="text/javascript"></script>
+        <?php include("analytics.php"); ?>
         <!-- END: PAGE SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
     </body>

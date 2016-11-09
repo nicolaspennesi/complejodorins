@@ -189,6 +189,7 @@
                 App.init(); // init core
             });
         </script>
+        <?php include("analytics.php"); ?>
         <!-- END: THEME SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
     </body>
