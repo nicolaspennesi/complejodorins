@@ -197,7 +197,7 @@
         <script>
             function enviarMensaje(event) {
                 event.preventDefault()
-                $('formulario-boton').prop('disabled', true);
+                $('#formulario-boton').prop('disabled', true);
                 $('#formulario-enviando').show();
                 $('#formulario-enviando').css('display', 'inline-block');
                 $('#formulario-error').hide();
@@ -210,13 +210,14 @@
                       $('#formulario-enviando').hide();
                       $('#formulario-error').hide();
                       $('#formulario-exito').show();
+                      $('#formulario-boton').prop('disabled', false);
                       $('#formulario')[0].reset();
                   })
                   .fail(function() {
                       $('#formulario-enviando').hide();
                       $('#formulario-exito').hide();
                       $('#formulario-error').show();
-                      $('formulario-boton').prop('disabled', false);
+                      $('#formulario-boton').prop('disabled', false);
                   })
             };
 
