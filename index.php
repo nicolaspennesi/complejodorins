@@ -252,7 +252,7 @@
                                                 <li>52 m2</li>
                                             </ul>
                                         </div>
-                                        <p> Cuatro ambientes, Living Comedor Amplio y luminoso con Tv, Aire, Barra y escritorio, sillones y balcon. Cocina separada Con bajilla y pequeños electros, dos baño (Toalet y baño con bañera). Dos habitaciones. </p>
+                                        <p> Cuatro ambientes, Living Comedor Amplio y luminoso con Tv, Aire, Barra y escritorio, sillones y balcon. Cocina separada Con vajilla y pequeños electros, dos baño (Toalet y baño con bañera). Dos habitaciones. </p>
                                     </div>
                                 </div>
                             </div>

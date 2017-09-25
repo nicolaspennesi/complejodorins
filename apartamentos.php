@@ -202,7 +202,7 @@
                     <div class="c-content-title-1">
                         <h3 class="c-center c-font-uppercase c-font-bold">Cuatro Ocupantes</h3>
                         <div class="c-line-center c-theme-bg"></div>
-                        <p class="c-font-center c-font-grey-3">Cuatro ambientes, Living Comedor Amplio y luminoso con Tv, Aire, Barra y escritorio, sillones y balcon. Cocina separada Con bajilla y pequeños electros, dos baño (Toalet y baño con bañera). Dos habitaciones.</p>
+                        <p class="c-font-center c-font-grey-3">Cuatro ambientes, Living Comedor Amplio y luminoso con Tv, Aire, Barra y escritorio, sillones y balcon. Cocina separada Con vajilla y pequeños electros, dos baño (Toalet y baño con bañera). Dos habitaciones.</p>
                     </div>
 
                     <div class="c-content-isotope-gallery c-opt-4">

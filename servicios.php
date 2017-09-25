@@ -140,7 +140,7 @@
                                 <ul class="c-content-list-1 c-theme c-separator-dot">
                                     <li>Tostadora eléctrica</li>
                                     <li>Cafetera eléctrica</li>
-                                    <li>Bajilla completa</li>
+                                    <li>Vajilla completa</li>
                                     <li>Heladera con freezer</li>
                                     <li>Microondas</li>
                                     <li>Tv en living comedor</li>
